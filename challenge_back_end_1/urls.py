@@ -18,6 +18,7 @@ from django.urls import path, include
 from rest_framework import routers
 from videos_api.views import VideosViewSet, CategoriasViewset, ListaVideosCategorias
 
+
 router = routers.DefaultRouter()
 router.register('videos', VideosViewSet, basename='Videos' )
 router.register('categorias', CategoriasViewset, basename='Categorias')
