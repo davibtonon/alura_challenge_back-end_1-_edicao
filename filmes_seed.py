@@ -41,6 +41,7 @@ def pegar_nome_descricao_filme(filme):
     nome_filme = filme[final_lista_categorias + 2:]
     nome_filme = nome_filme[:final_nome_filme]
     descricao_filme = filme[inicio_descricao_filme:]
+    
     return nome_filme, descricao_filme
 
 

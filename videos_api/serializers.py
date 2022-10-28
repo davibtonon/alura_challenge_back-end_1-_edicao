@@ -5,7 +5,7 @@ from videos_api.models import Video, Categoria
 class VideoSerializers(serializers.ModelSerializer):
     class Meta:
         model = Video
-        fields = ['id', 'titulo', 'descricao', 'url', 'categoria']
+        fields = ['id', 'titulo', 'descricao', 'url', 'categoria', 'free']
 
 
 class CategoriaSerializers(serializers.ModelSerializer):
